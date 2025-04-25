@@ -96,8 +96,13 @@
 </head>
 <body>
 
-  <!-- Embedded Player via iframe -->
-  <iframe src="https://user65873.hls-video.net/hls/token/a3f0c81db39d64f85b6f6a5cfaa1b2ce/stream.m3u8" allowfullscreen></iframe>
+  
+   <!-- Embedded Player via iframe with sandbox -->
+  <iframe 
+    src="https://vimeo.com/event/5050562/embed" 
+    allowfullscreen 
+    sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation">
+  </iframe>
 
   <!-- Telegram Popup -->
   <div class="popup" id="customPopup">
